@@ -1,6 +1,6 @@
-# OpenAIAPI Image generation
+# OpenAI API project
 
-Open API image generation with Express server NodeJs
+OpenAI API project with back-end with express and vite front-end
 
 ## Environment Variables
 

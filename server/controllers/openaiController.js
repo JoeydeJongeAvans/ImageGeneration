@@ -48,7 +48,7 @@ const askQuestion = async (req, res) => {
     });
 
     res.status(200).send({
-      bot: response.data.choices[0].text
+      JoeyAI: response.data.choices[0].text
     });
 
   } catch (error) {
