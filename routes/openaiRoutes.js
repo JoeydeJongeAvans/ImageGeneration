@@ -1,5 +1,5 @@
-const express = require('express');
-const {generateImage} = require('../controllers/openaiController');
+import express from 'express'
+const {generateImage, askQuestion} = require('../controllers/openaiController');
 const router = express.Router();
 
 router.post('/generateimage', generateImage);
